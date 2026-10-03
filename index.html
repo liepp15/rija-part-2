@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>For You 💌</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500;1,700&family=Karla:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 1. HERO -->
+  <header class="hero">
+    <h1>For You,<br>Oryza - Jamet Gempol</h1>
+    <p class="hero-sub">I made this because some things are better said slowly, and from the heart.</p>
+    <a class="hero-btn" href="#gallery">Start here</a>
+  </header>
+
+  <main>
+    <!-- 2. PHOTO GALLERY -->
+    <section id="gallery" class="section">
+      <h2>My Treasure</h2>
+      <div class="grid">
+        <figure class="photo">
+          <img src="assets/photo-1.jpg" alt="Photo 1" loading="lazy">
+          <figcaption>You, being the most beautiful part of my day.</figcaption>
+        </figure>
+        <figure class="photo">
+          <img src="assets/photo-2.jpg" alt="Photo 2" loading="lazy">
+          <figcaption>This smile is my favorite thing in the world.</figcaption>
+        </figure>
+        <figure class="photo">
+          <img src="assets/photo-3.jpg" alt="Photo 3" loading="lazy">
+          <figcaption>One of those days I never want to forget.</figcaption>
+        </figure>
+        <figure class="photo">
+          <img src="assets/photo-4.jpg" alt="Photo 4" loading="lazy">
+          <figcaption>Home is wherever you are.</figcaption>
+        </figure>
+        <figure class="photo">
+          <img src="assets/photo-5.jpg" alt="Photo 5" loading="lazy">
+          <figcaption>Laughing with you is my favorite sound.</figcaption>
+        </figure>
+        <figure class="photo">
+          <img src="assets/photo-6.jpg" alt="Photo 6" loading="lazy">
+          <figcaption>Still falling for you, every day.</figcaption>
+        </figure>
+      </div>
+      <p class="hint">Tap a photo to see it bigger.</p>
+    </section>
+
+    <!-- 3. SORRY -->
+    <section id="sorry" class="section section-red">
+      <h2>I'm Sorry</h2>
+      <article class="letter">
+        <p>I know there have been times when I made you sad, and I'm truly sorry for that. You deserve someone who makes you feel safe and happy, not someone who leaves you hurting.</p>
+        <p>I can't promise I'll never make a mistake, but I promise I will keep learning, keep listening, and keep trying to be better for you, every single day.</p>
+        <p>Thank you for staying patient with me, even when I didn't deserve it.</p>
+      </article>
+    </section>
+
+    <!-- 4. THANK YOU -->
+    <section id="thanks" class="section">
+      <h2>Thank You</h2>
+      <p class="lead">Thank you for...</p>
+      <ul class="thanks-list">
+        <li>being patient with me when I wasn't easy to deal with.</li>
+        <li>listening, even on the days I couldn't explain myself well.</li>
+        <li>making ordinary days feel special.</li>
+        <li>believing in me when I doubted myself.</li>
+        <li>staying by my side.</li>
+      </ul>
+    </section>
+
+    <!-- 5. I LOVE YOU -->
+    <section id="love" class="section section-red love">
+      <div class="hearts" aria-hidden="true"></div>
+      <h2>I Love You</h2>
+      <p class="love-text">I love you more than I know how to put into words. You are my calm, my happiness, and my favorite person to share life with.</p>
+      <p class="love-text">No matter what happens, I want you to remember this: you are deeply loved, and I'm so grateful to have you.</p>
+    </section>
+  </main>
+
+  <!-- 6. FOOTER -->
+  <footer class="footer">
+    <p>Always yours,</p>
+    <p class="sign">Lipj</p>
+  </footer>
+
+  <!-- Lightbox -->
+  <dialog class="lightbox" aria-label="Photo viewer">
+    <button class="lightbox-close" aria-label="Close photo">&times;</button>
+    <img src="" alt="">
+    <p class="lightbox-cap"></p>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
